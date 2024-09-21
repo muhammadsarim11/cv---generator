@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+    <div class="main">
+        <div class="user-data">
+            <input type="text"  id="name" placeholder="Enter Your Name">
+            <input type="text" id="Lastname" placeholder="Enter Your Lastname">
+            <input type="text"id="email" placeholder="Enter Your Course Name">
+            <input type="text"id="password" placeholder="Enter Your Rollno">        
+        </div>
+        <div class="submit-data">
+            <button onclick="template()" id="submit" class="bg-blue-700 py-2 px-6 rounded-md font-semibold">Submit</button>
+        </div>
+        <div class="template">
+            <h1 id="showname">Name</h1>
+            <h1 id="showlast">Lastname</h1>
+            <h1 id="showcourse">Course Name</h1>
+            <h1 id="showroll">Rollno</h1>
+        </div>
+
+        <div class="submit-again">
+            <button id="submit-again">submit again</button>
+        </div>
+    </div>
+</body>
+
+<script src="app.js"></script>
+
+</html>
